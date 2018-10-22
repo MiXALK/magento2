@@ -1,0 +1,24 @@
+{
+  "name": "mixal/insurance",
+  "description": "A Magento 2 module that adds shipping insurance",
+  "type": "magento2-module",
+  "version": "0.0.1",
+  "license": [
+    "OSL-3.0"
+  ],
+  "require": {
+    "magento/framework": "~100.0.4"
+  },
+  "authors": [
+    {
+      "name": "Kantselyarchik Mihail",
+      "email": "m.kantselyarchik@itransition.com"
+    }
+  ],
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Mixal\\Insurance\\": ""
+    }
+  }
+}
