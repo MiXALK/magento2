@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <carriers>
+            <flatrate>
+                <!--<available>0</available>-->
+                <pricetype>0</pricetype>
+                <insurance>0.00</insurance>
+            </flatrate>
+            <tablerate>
+                <!--<available>0</available>-->
+                <pricetype>0</pricetype>
+                <insurance>0.00</insurance>
+            </tablerate>
+            <freeshipping>
+                <!--<available>0</available>-->
+                <pricetype>0</pricetype>
+                <insurance>0.00</insurance>
+            </freeshipping>
+        </carriers>
+    </default>
+</config>

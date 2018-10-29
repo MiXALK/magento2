@@ -1,0 +1,8 @@
+<div class="show_hide_insurance" style="display: none">
+    <div data-bind="visible: selectedMethod() === 'flatrate' || selectedMethod() === 'freeshipping'">
+        <input type="checkbox" name="custom-fee" value="custom-fee"/>
+        <span class="insurance-amount" style="font-weight: 600"></span>
+        <span class="insurance-label"></span>
+        <span data-bind="text: selectedMethod()" class="selected-method" style="display: none"></span>
+    </div>
+</div>
